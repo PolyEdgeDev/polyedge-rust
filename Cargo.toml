@@ -1,0 +1,27 @@
+[package]
+name = "polyedge"
+version = "1.0.0"
+edition = "2021"
+description = "Official Rust SDK for PolyEdge ultra-low latency Polymarket mempool trade streaming and real-time on-chain analytics API."
+license = "MIT"
+authors = ["PolyEdge Developer Support <dev@polyedge.dev>"]
+homepage = "https://polyedge.dev"
+repository = "https://github.com/PolyEdgeDev/polyedge-rust"
+documentation = "https://docs.rs/polyedge"
+readme = "README.md"
+keywords = ["polymarket", "copy-trading", "mempool-stream", "pre-block-trades", "trading-bot"]
+categories = ["api-bindings", "asynchronous", "web-programming::http-client"]
+include = ["src/**/*", "examples/**/*", "tests/**/*", "Cargo.toml", "README.md", "LICENSE"]
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+reqwest = { version = "0.12", default-features = false, features = ["json", "stream", "rustls-tls"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+futures-util = "0.3"
+async-stream = "0.3"
+rand = "0.8"
+thiserror = "1.0"
+
+[dev-dependencies]
+tokio = { version = "1", features = ["full", "test-util"] }
