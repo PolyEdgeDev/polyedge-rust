@@ -1,6 +1,6 @@
 # PolyEdge Rust SDK
 
-[![Crates.io](https://img.shields.io/crates/v/polyedge.svg?color=blue)](https://crates.io/crates/polyedge)
+[![Crates.io](https://img.shields.io/crates/v/polyedge.svg?color=blue&cache=1)](https://crates.io/crates/polyedge)
 [![Docs.rs](https://docs.rs/polyedge/badge.svg)](https://docs.rs/polyedge)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Documentation](https://img.shields.io/badge/docs-polyedge.dev-cyan)](https://polyedge.dev/docs)
